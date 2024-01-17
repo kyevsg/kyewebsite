@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kyewebsite"
+version = "0.1.0"
+description = ""
+authors = ["kyevsg <kyevsg@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+flask = 3.0
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
